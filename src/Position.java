@@ -69,7 +69,14 @@ public class Position {
 		
 		//Add Code Here [You have to use If/Else to get graded]
 		
-		return 0; //Temporal Return
+		if (jobType == true)
+			return hSalary*40*4.5*12;
+		
+		
+		else
+			return hSalary*20*4.5*12;
+		 
+			
 		
 	}
 }
